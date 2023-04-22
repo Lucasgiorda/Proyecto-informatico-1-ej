@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+ int main(int argc ,char * argv []){
+	 int a = atoi(argv[1]);
+	 int b = atoi(argv[2]);
+	 int c = atoi(argv[3]);
+	 int resultado = (a >= b+c ||b >=c+a|| c >= b+a);
+	 printf ("%s\n",resultado ? "falso":"verdadero");
+	return 0;
+ }
+

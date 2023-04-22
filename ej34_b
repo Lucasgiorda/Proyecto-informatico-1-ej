@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+ int main(int argc ,char * argv []){
+	 double a = atoi(argv[1]);
+	 double cose = cos(a);
+	 double sen = sin(a);
+	 printf ("%f\n,%f\n",cose,sen);
+	return 0;
+ }
+
